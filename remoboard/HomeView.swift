@@ -225,7 +225,7 @@ struct HomeView: View {
 
             AppStoreLink(name: "BSSID SCAN", systemImage: "wifi", url: "https://apps.apple.com/us/app/bssid-scan/id1442586100")
             Divider()
-            AppStoreLink(name: "CountMyDays", systemImage: "calendar", url: "https://apps.apple.com/us/app/countmydays-days-counter/id6753280745")
+            AppStoreLink(name: "Dayvella", systemImage: "calendar", url: "https://apps.apple.com/app/id6753280745")
         }
         .padding(18)
         .background(card)

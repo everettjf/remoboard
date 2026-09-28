@@ -22,7 +22,7 @@
 "home.quickwords.sub" = "Gestiona tus frases reutilizables";
 "home.testinput.sub" = "Prueba la escritura remota aquí";
 "home.pin.title" = "Requerir un PIN para conectar";
-"home.pin.note" = "Desactivado por defecto: cualquiera en tu Wi-Fi que abra la página puede escribir. Actívalo para exigir el código mostrado en el teclado.";
+"home.pin.note" = "Activado por defecto. El navegador debe introducir el código que muestra el teclado. Desactívalo solo en una red Wi-Fi de confianza.";
 "home.feedback" = "Comentarios";
 "home.port.title" = "Puerto del servidor";
 "home.port.note" = "El valor predeterminado es 7777. Cámbialo solo si ese puerto ya está en uso. Se aplica la próxima vez que abras el teclado.";

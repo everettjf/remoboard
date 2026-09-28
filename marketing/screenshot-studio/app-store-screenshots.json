@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "appName": "Remoboard",
+  "themeId": "remoboard-spectrum",
+  "fontId": "system-sans",
+  "connectedCanvas": false,
+  "locales": [
+    "zh-Hans",
+    "en"
+  ],
+  "locale": "en",
+  "device": "ipad",
+  "orientation": "portrait",
+  "appIcon": "/app-icon.png",
+  "slidesByDevice": {
+    "iphone": [
+      {
+        "id": "remoboard-iphone-received",
+        "layout": "hero",
+        "label": {
+          "en": "BROWSER TO DEVICE",
+          "zh-Hans": "电脑发送 · 设备接收"
+        },
+        "headline": {
+          "en": "Send text from\nyour computer.",
+          "zh-Hans": "电脑输入文字\n发送到设备"
+        },
+        "screenshot": "/screenshots/apple/iphone/en/received.png",
+        "backgroundColor": "#EAF4FF",
+        "inverted": false
+      },
+      {
+        "id": "remoboard-iphone-pair",
+        "layout": "device-bottom",
+        "label": {
+          "en": "LOCAL WI-FI · PIN PAIRING",
+          "zh-Hans": "局域网 · PIN 配对"
+        },
+        "headline": {
+          "en": "Pair with a PIN.\nStart typing.",
+          "zh-Hans": "PIN 配对\n开始输入"
+        },
+        "screenshot": "/screenshots/apple/iphone/en/home.png",
+        "inverted": false,
+        "backgroundColor": "#E8F8F4"
+      },
+      {
+        "id": "remoboard-iphone-words",
+        "layout": "hero",
+        "label": {
+          "en": "QUICK WORDS",
+          "zh-Hans": "常用短语"
+        },
+        "headline": {
+          "en": "Phrases ready\nwhen you are.",
+          "zh-Hans": "常用短语\n随手调用"
+        },
+        "screenshot": "/screenshots/apple/iphone/en/quickwords.png",
+        "backgroundColor": "#FFF2E4",
+        "inverted": false
+      }
+    ],
+    "android": [],
+    "ipad": [
+      {
+        "id": "remoboard-ipad-received",
+        "layout": "hero",
+        "label": {
+          "en": "BROWSER TO DEVICE",
+          "zh-Hans": "电脑发送 · 设备接收"
+        },
+        "headline": {
+          "en": "Send text from\nyour computer.",
+          "zh-Hans": "电脑输入文字\n发送到设备"
+        },
+        "screenshot": "/screenshots/apple/ipad/en/received.png",
+        "backgroundColor": "#EAF4FF",
+        "inverted": false
+      },
+      {
+        "id": "remoboard-ipad-pair",
+        "layout": "device-bottom",
+        "label": {
+          "en": "LOCAL WI-FI · PIN PAIRING",
+          "zh-Hans": "局域网 · PIN 配对"
+        },
+        "headline": {
+          "en": "Pair with a PIN.\nStart typing.",
+          "zh-Hans": "PIN 配对\n开始输入"
+        },
+        "screenshot": "/screenshots/apple/ipad/en/home.png",
+        "inverted": false,
+        "backgroundColor": "#E8F8F4"
+      },
+      {
+        "id": "remoboard-ipad-words",
+        "layout": "hero",
+        "label": {
+          "en": "QUICK WORDS",
+          "zh-Hans": "常用短语"
+        },
+        "headline": {
+          "en": "Phrases ready\nwhen you are.",
+          "zh-Hans": "常用短语\n随手调用"
+        },
+        "screenshot": "/screenshots/apple/ipad/en/quickwords.png",
+        "backgroundColor": "#FFF2E4",
+        "inverted": false
+      }
+    ],
+    "tvos": [],
+    "watchos": [],
+    "carplay": [],
+    "mac": [],
+    "android-7": [],
+    "android-10": [],
+    "feature-graphic": []
+  }
+}

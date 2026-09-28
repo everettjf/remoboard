@@ -25,7 +25,7 @@
 "home.quickwords.sub" = "Manage your reusable phrases";
 "home.testinput.sub" = "Try remote typing right here";
 "home.pin.title" = "Require a PIN to connect";
-"home.pin.note" = "Off by default — anyone on your Wi-Fi who opens the page can type. Turn this on to require the pairing code shown on the keyboard.";
+"home.pin.note" = "On by default. A browser must enter the code shown on the keyboard. Turn this off only on a trusted Wi-Fi network.";
 "home.feedback" = "Feedback";
 "home.port.title" = "Server port";
 "home.port.note" = "Default is 7777. Change it only if that port is already in use. Takes effect next time the keyboard opens.";

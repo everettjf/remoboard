@@ -90,10 +90,10 @@ public final class Settings {
 
     // MARK: - PIN pairing
 
-    /// When off (the default), any device on the network that opens the page can type —
-    /// no pairing code. Users who want to lock it down can turn this on in the app.
+    /// Require a pairing code on new installs. Users can explicitly disable it
+    /// for a trusted local network in the host app.
     public var requirePIN: Bool {
-        get { defaults.bool(forKey: Key.requirePIN) }   // absent -> false
+        get { defaults.object(forKey: Key.requirePIN) as? Bool ?? true }
         set { defaults.set(newValue, forKey: Key.requirePIN) }
     }
 

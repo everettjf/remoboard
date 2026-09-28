@@ -22,7 +22,7 @@
 "home.quickwords.sub" = "Gestisci le tue frasi rapide";
 "home.testinput.sub" = "Prova la digitazione remota qui";
 "home.pin.title" = "Richiedi un PIN per connetterti";
-"home.pin.note" = "Disattivato per impostazione predefinita: chiunque sulla tua Wi-Fi apra la pagina può digitare. Attivalo per richiedere il codice mostrato sulla tastiera.";
+"home.pin.note" = "Attivo per impostazione predefinita. Il browser deve inserire il codice mostrato sulla tastiera. Disattivalo solo su una rete Wi-Fi attendibile.";
 "home.feedback" = "Feedback";
 "home.port.title" = "Porta del server";
 "home.port.note" = "Il valore predefinito è 7777. Cambialo solo se quella porta è già in uso. Ha effetto alla prossima apertura della tastiera.";

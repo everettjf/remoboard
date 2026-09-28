@@ -22,7 +22,7 @@
 "home.quickwords.sub" = "Verwalte deine Schnelltexte";
 "home.testinput.sub" = "Ferneingabe direkt testen";
 "home.pin.title" = "PIN zum Verbinden verlangen";
-"home.pin.note" = "Standardmäßig aus – jeder im WLAN, der die Seite öffnet, kann tippen. Aktiviere dies, um den auf der Tastatur angezeigten Code zu verlangen.";
+"home.pin.note" = "Standardmäßig aktiviert. Im Browser muss der auf der Tastatur angezeigte Code eingegeben werden. Nur in vertrauenswürdigen WLANs ausschalten.";
 "home.feedback" = "Feedback";
 "home.port.title" = "Server-Port";
 "home.port.note" = "Standard ist 7777. Nur ändern, wenn dieser Port belegt ist. Wird beim nächsten Öffnen der Tastatur wirksam.";
