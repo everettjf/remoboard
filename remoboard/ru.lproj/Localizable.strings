@@ -32,3 +32,25 @@
 "home.scriptwidget.description" = "Создавайте нативные виджеты для iPhone, iPad и Mac с помощью JavaScript и JSX.";
 "home.scriptwidget.cta" = "Открыть ScriptWidget";
 "home.scriptwidget.hint" = "Открывает сайт ScriptWidget.";
+
+// Connection diagnostics
+"diagnostics.title" = "Диагностика";
+"diagnostics.pairing.title" = "Проверка сопряжения";
+"diagnostics.pairing.verified" = "Подтверждено %@";
+"diagnostics.pairing.none" = "Подтверждённых сопряжений пока нет";
+"diagnostics.pairing.explanation" = "Успех записывается только после завершения проверки PIN по WebSocket в браузере.";
+"diagnostics.clipboard.title" = "Конфиденциальность буфера обмена";
+"diagnostics.clipboard.read" = "Разрешить удалённое чтение буфера обмена";
+"diagnostics.clipboard.write" = "Разрешить удалённую запись в буфер обмена";
+"diagnostics.clipboard.clear" = "Очистить историю буфера обмена";
+"diagnostics.log.title" = "Журнал подключений без содержимого";
+"diagnostics.log.clear" = "Очистить диагностику";
+"diagnostics.share" = "Поделиться диагностикой";
+"diagnostics.export.header" = "Диагностика Remoboard (содержимое скрыто)";
+"diagnostics.kind.pairing" = "Сопряжение";
+"diagnostics.kind.clipboard" = "Буфер обмена";
+"diagnostics.event.verified" = "PIN полностью подтверждён";
+"diagnostics.event.rejected" = "PIN отклонён (попытка %@)";
+"diagnostics.event.write" = "Удалённая запись принята (%@ байт; содержимое скрыто)";
+"diagnostics.event.read" = "Удалённое чтение принято (%@ байт; содержимое скрыто)";
+"home.diagnostics" = "Диагностика подключения и конфиденциальность буфера обмена";

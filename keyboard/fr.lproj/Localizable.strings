@@ -14,3 +14,5 @@
 "HandoffFailed" = "Impossible d'ouvrir Remoboard";
 "ShowAddress" = "Afficher l'adresse";
 "HideAddress" = "Masquer";
+"ClipboardWriteBlocked" = "Écriture dans le presse-papiers bloquée par les réglages de confidentialité";
+"ClipboardReadBlocked" = "Lecture du presse-papiers bloquée par les réglages de confidentialité";

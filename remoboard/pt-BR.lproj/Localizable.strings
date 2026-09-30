@@ -32,3 +32,25 @@
 "home.scriptwidget.description" = "Crie widgets nativos para iPhone, iPad e Mac com JavaScript e JSX.";
 "home.scriptwidget.cta" = "Conhecer o ScriptWidget";
 "home.scriptwidget.hint" = "Abre o site do ScriptWidget.";
+
+// Connection diagnostics
+"diagnostics.title" = "Diagnóstico";
+"diagnostics.pairing.title" = "Verificação do pareamento";
+"diagnostics.pairing.verified" = "Verificado %@";
+"diagnostics.pairing.none" = "Nenhum pareamento verificado registrado";
+"diagnostics.pairing.explanation" = "O sucesso só é registrado após a conclusão da autenticação por PIN WebSocket no navegador.";
+"diagnostics.clipboard.title" = "Privacidade da área de transferência";
+"diagnostics.clipboard.read" = "Permitir leitura remota da área de transferência";
+"diagnostics.clipboard.write" = "Permitir gravação remota na área de transferência";
+"diagnostics.clipboard.clear" = "Limpar histórico da área de transferência";
+"diagnostics.log.title" = "Registro de conexões com conteúdo oculto";
+"diagnostics.log.clear" = "Limpar diagnósticos";
+"diagnostics.share" = "Compartilhar diagnósticos";
+"diagnostics.export.header" = "Diagnóstico do Remoboard (conteúdo oculto)";
+"diagnostics.kind.pairing" = "Pareamento";
+"diagnostics.kind.clipboard" = "Área de transferência";
+"diagnostics.event.verified" = "PIN verificado de ponta a ponta";
+"diagnostics.event.rejected" = "PIN recusado (tentativa %@)";
+"diagnostics.event.write" = "Gravação remota aceita (%@ bytes; conteúdo oculto)";
+"diagnostics.event.read" = "Leitura remota aceita (%@ bytes; conteúdo oculto)";
+"home.diagnostics" = "Diagnóstico de conexão e privacidade da área de transferência";

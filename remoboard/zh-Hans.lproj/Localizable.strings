@@ -35,3 +35,25 @@
 "home.scriptwidget.description" = "使用 JavaScript 和 JSX 创建原生 iPhone、iPad 和 Mac 小组件。";
 "home.scriptwidget.cta" = "了解 ScriptWidget";
 "home.scriptwidget.hint" = "打开 ScriptWidget 网站。";
+
+// Connection diagnostics
+"diagnostics.title" = "诊断";
+"diagnostics.pairing.title" = "配对验证";
+"diagnostics.pairing.verified" = "已验证 %@";
+"diagnostics.pairing.none" = "尚无已验证的配对记录";
+"diagnostics.pairing.explanation" = "只有浏览器完成 WebSocket PIN 握手后才会记录成功。";
+"diagnostics.clipboard.title" = "剪贴板隐私";
+"diagnostics.clipboard.read" = "允许远程读取剪贴板";
+"diagnostics.clipboard.write" = "允许远程写入剪贴板";
+"diagnostics.clipboard.clear" = "清除剪贴板历史";
+"diagnostics.log.title" = "已隐藏内容的连接日志";
+"diagnostics.log.clear" = "清除诊断记录";
+"diagnostics.share" = "分享诊断记录";
+"diagnostics.export.header" = "Remoboard 诊断记录（内容已隐藏）";
+"diagnostics.kind.pairing" = "配对";
+"diagnostics.kind.clipboard" = "剪贴板";
+"diagnostics.event.verified" = "PIN 已完成端到端验证";
+"diagnostics.event.rejected" = "PIN 被拒绝（第 %@ 次尝试）";
+"diagnostics.event.write" = "已接受远程写入（%@ 字节；内容已隐藏）";
+"diagnostics.event.read" = "已接受远程读取（%@ 字节；内容已隐藏）";
+"home.diagnostics" = "连接诊断与剪贴板隐私";

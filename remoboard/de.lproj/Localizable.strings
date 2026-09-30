@@ -32,3 +32,25 @@
 "home.scriptwidget.description" = "Erstelle native Widgets für iPhone, iPad und Mac mit JavaScript und JSX.";
 "home.scriptwidget.cta" = "ScriptWidget entdecken";
 "home.scriptwidget.hint" = "Öffnet die ScriptWidget-Website.";
+
+// Connection diagnostics
+"diagnostics.title" = "Diagnose";
+"diagnostics.pairing.title" = "Kopplungsprüfung";
+"diagnostics.pairing.verified" = "Bestätigt %@";
+"diagnostics.pairing.none" = "Noch keine bestätigte Kopplung aufgezeichnet";
+"diagnostics.pairing.explanation" = "Ein Erfolg wird erst nach Abschluss des WebSocket-PIN-Handshakes im Browser aufgezeichnet.";
+"diagnostics.clipboard.title" = "Zwischenablage und Datenschutz";
+"diagnostics.clipboard.read" = "Fernzugriff zum Lesen der Zwischenablage erlauben";
+"diagnostics.clipboard.write" = "Fernzugriff zum Schreiben in die Zwischenablage erlauben";
+"diagnostics.clipboard.clear" = "Zwischenablageverlauf löschen";
+"diagnostics.log.title" = "Bereinigtes Verbindungsprotokoll";
+"diagnostics.log.clear" = "Diagnosedaten löschen";
+"diagnostics.share" = "Diagnosedaten teilen";
+"diagnostics.export.header" = "Remoboard-Diagnose (Inhalte entfernt)";
+"diagnostics.kind.pairing" = "Kopplung";
+"diagnostics.kind.clipboard" = "Zwischenablage";
+"diagnostics.event.verified" = "PIN vollständig bestätigt";
+"diagnostics.event.rejected" = "PIN abgelehnt (Versuch %@)";
+"diagnostics.event.write" = "Fernschreiben akzeptiert (%@ Byte; Inhalt entfernt)";
+"diagnostics.event.read" = "Fernlesen akzeptiert (%@ Byte; Inhalt entfernt)";
+"home.diagnostics" = "Verbindungsdiagnose und Datenschutz der Zwischenablage";

@@ -14,3 +14,5 @@
 "HandoffFailed" = "Couldn't open Remoboard";
 "ShowAddress" = "Show address";
 "HideAddress" = "Hide";
+"ClipboardWriteBlocked" = "Clipboard write blocked by privacy settings";
+"ClipboardReadBlocked" = "Clipboard read blocked by privacy settings";

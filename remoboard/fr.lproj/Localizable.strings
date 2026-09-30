@@ -32,3 +32,25 @@
 "home.scriptwidget.description" = "Créez des widgets natifs pour iPhone, iPad et Mac avec JavaScript et JSX.";
 "home.scriptwidget.cta" = "Découvrir ScriptWidget";
 "home.scriptwidget.hint" = "Ouvre le site web de ScriptWidget.";
+
+// Connection diagnostics
+"diagnostics.title" = "Diagnostics";
+"diagnostics.pairing.title" = "Vérification de l’appairage";
+"diagnostics.pairing.verified" = "Vérifié %@";
+"diagnostics.pairing.none" = "Aucun appairage vérifié enregistré";
+"diagnostics.pairing.explanation" = "Un succès n’est enregistré qu’après la fin de l’échange de code PIN WebSocket dans le navigateur.";
+"diagnostics.clipboard.title" = "Confidentialité du presse-papiers";
+"diagnostics.clipboard.read" = "Autoriser la lecture distante du presse-papiers";
+"diagnostics.clipboard.write" = "Autoriser l’écriture distante dans le presse-papiers";
+"diagnostics.clipboard.clear" = "Effacer l’historique du presse-papiers";
+"diagnostics.log.title" = "Journal des connexions expurgé";
+"diagnostics.log.clear" = "Effacer les diagnostics";
+"diagnostics.share" = "Partager les diagnostics";
+"diagnostics.export.header" = "Diagnostics Remoboard (contenu masqué)";
+"diagnostics.kind.pairing" = "Appairage";
+"diagnostics.kind.clipboard" = "Presse-papiers";
+"diagnostics.event.verified" = "Code PIN vérifié de bout en bout";
+"diagnostics.event.rejected" = "Code PIN refusé (tentative %@)";
+"diagnostics.event.write" = "Écriture distante acceptée (%@ octets ; contenu masqué)";
+"diagnostics.event.read" = "Lecture distante acceptée (%@ octets ; contenu masqué)";
+"home.diagnostics" = "Diagnostics de connexion et confidentialité du presse-papiers";

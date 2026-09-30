@@ -1,0 +1,59 @@
+"home.tagline" = "Gõ trên máy tính, văn bản hiện trên điện thoại.";
+"home.howto.title" = "Cách sử dụng";
+"home.howto.step1" = "Thêm Remoboard làm bàn phím trong Cài đặt → Cài đặt chung → Bàn phím → Các bàn phím.";
+"home.howto.step2" = "Chạm vào Remoboard và bật \"Cho phép truy cập đầy đủ\" để bàn phím có thể dùng mạng của bạn.";
+"home.howto.step3" = "Chuyển sang bàn phím Remoboard. Bàn phím sẽ hiển thị một địa chỉ URL và mã PIN.";
+"home.howto.step4" = "Mở URL đó trên trình duyệt máy tính, nhập mã PIN rồi bắt đầu gõ.";
+"home.quickwords" = "Cụm từ nhanh";
+"home.testinput" = "Thử nhập";
+"home.opensettings" = "Mở Cài đặt";
+"home.fullaccess.note" = "Cần cấp Truy cập đầy đủ để bàn phím cung cấp trang web qua mạng nội bộ.";
+
+"quickwords.add.placeholder" = "Cụm từ nhanh mới";
+"quickwords.footer" = "Chạm vào một cụm từ trong danh sách Từ của bàn phím để chèn.";
+"quickwords.reset" = "Đặt lại";
+
+"testinput.hint" = "Chuyển sang bàn phím Remoboard và gõ từ máy tính. Văn bản sẽ xuất hiện tại đây.";
+"testinput.clear" = "Xóa";
+
+"received.title" = "Văn bản đã nhận";
+"received.copy" = "Sao chép";
+"received.copied" = "Đã sao chép";
+"received.share" = "Chia sẻ";
+"received.done" = "Xong";
+"handoff.ready" = "Handoff đã sẵn sàng — mở từ Handoff trên máy Mac (Dock hoặc trình chuyển ứng dụng), rồi gõ tại đó.";
+"home.quickwords.sub" = "Quản lý các cụm từ dùng lại";
+"home.testinput.sub" = "Thử gõ từ xa ngay tại đây";
+"home.pin.title" = "Yêu cầu mã PIN khi kết nối";
+"home.pin.note" = "Mặc định được bật. Trình duyệt phải nhập mã hiển thị trên bàn phím. Chỉ tắt trên mạng Wi-Fi đáng tin cậy.";
+"home.feedback" = "Gửi phản hồi";
+"home.port.title" = "Cổng máy chủ";
+"home.port.note" = "Mặc định là 7777. Chỉ đổi nếu cổng này đã được sử dụng. Có hiệu lực khi mở bàn phím lần sau.";
+"home.port.apply" = "Áp dụng";
+"home.moreapps" = "Ứng dụng khác";
+"home.scriptwidget.eyebrow" = "Ứng dụng nổi bật";
+"home.scriptwidget.description" = "Tạo widget gốc cho iPhone, iPad và Mac bằng JavaScript và JSX.";
+"home.scriptwidget.cta" = "Khám phá ScriptWidget";
+"home.scriptwidget.hint" = "Mở trang web ScriptWidget.";
+
+// Connection diagnostics
+"diagnostics.title" = "Chẩn đoán";
+"diagnostics.pairing.title" = "Xác minh ghép đôi";
+"diagnostics.pairing.verified" = "Đã xác minh %@";
+"diagnostics.pairing.none" = "Chưa ghi nhận ghép đôi đã xác minh";
+"diagnostics.pairing.explanation" = "Chỉ ghi nhận thành công sau khi trình duyệt hoàn tất bắt tay PIN WebSocket.";
+"diagnostics.clipboard.title" = "Quyền riêng tư bộ nhớ tạm";
+"diagnostics.clipboard.read" = "Cho phép đọc bộ nhớ tạm từ xa";
+"diagnostics.clipboard.write" = "Cho phép ghi vào bộ nhớ tạm từ xa";
+"diagnostics.clipboard.clear" = "Xóa lịch sử bộ nhớ tạm";
+"diagnostics.log.title" = "Nhật ký kết nối đã ẩn nội dung";
+"diagnostics.log.clear" = "Xóa dữ liệu chẩn đoán";
+"diagnostics.share" = "Chia sẻ dữ liệu chẩn đoán";
+"diagnostics.export.header" = "Chẩn đoán Remoboard (đã ẩn nội dung)";
+"diagnostics.kind.pairing" = "Ghép đôi";
+"diagnostics.kind.clipboard" = "Bộ nhớ tạm";
+"diagnostics.event.verified" = "PIN đã được xác minh đầu cuối";
+"diagnostics.event.rejected" = "PIN bị từ chối (lần thử %@)";
+"diagnostics.event.write" = "Đã chấp nhận ghi từ xa (%@ byte; đã ẩn nội dung)";
+"diagnostics.event.read" = "Đã chấp nhận đọc từ xa (%@ byte; đã ẩn nội dung)";
+"home.diagnostics" = "Chẩn đoán kết nối và quyền riêng tư bộ nhớ tạm";

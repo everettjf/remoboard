@@ -28,7 +28,7 @@ struct HomeView: View {
                     setupCard
                     quickActions
                     securityCard
-                    NavigationLink { ConnectionDiagnosticsView() } label: { Label("Connection Diagnostics & Clipboard Privacy", systemImage: "stethoscope").font(.headline).frame(maxWidth: .infinity, alignment: .leading).padding(18).background(card) }.buttonStyle(.plain)
+                    NavigationLink { ConnectionDiagnosticsView() } label: { Label(NSLocalizedString("home.diagnostics", comment: ""), systemImage: "stethoscope").font(.headline).frame(maxWidth: .infinity, alignment: .leading).padding(18).background(card) }.buttonStyle(.plain)
                     portCard
                     scriptWidgetCard
                     moreAppsCard
@@ -260,8 +260,10 @@ private struct StepRow: View {
             Text("\(number)")
                 .font(.subheadline.bold())
                 .foregroundStyle(.white)
-                .frame(width: 26, height: 26)
+                .frame(width: 28, height: 28)
                 .background(Circle().fill(Color.accentColor))
+                .fixedSize()
+                .layoutPriority(1)
             Text(text)
                 .font(.subheadline)
                 .fixedSize(horizontal: false, vertical: true)

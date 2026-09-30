@@ -14,3 +14,5 @@
 "HandoffFailed" = "Remoboard를 열 수 없습니다";
 "ShowAddress" = "주소 표시";
 "HideAddress" = "숨기기";
+"ClipboardWriteBlocked" = "개인정보 보호 설정으로 클립보드 쓰기가 차단되었습니다";
+"ClipboardReadBlocked" = "개인정보 보호 설정으로 클립보드 읽기가 차단되었습니다";

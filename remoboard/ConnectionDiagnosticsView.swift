@@ -3,6 +3,8 @@ import UIKit
 import RemoboardKit
 
 struct ConnectionDiagnosticsView: View {
+    private func localized(_ key: String) -> String { NSLocalizedString(key, comment: "") }
+
     @State private var events = Settings.shared.diagnosticEvents
     @State private var history = Settings.shared.clipboardHistory
     @State private var allowRead = Settings.shared.allowRemoteClipboardRead
@@ -12,28 +14,28 @@ struct ConnectionDiagnosticsView: View {
 
     var body: some View {
         List {
-            Section("Pairing Verification") {
+            Section(localized("diagnostics.pairing.title")) {
                 if let success = events.last(where: { $0.kind == "pairing" && $0.detail.contains("verified") }) {
-                    Label("Verified \(success.date.formatted(date: .abbreviated, time: .standard))", systemImage: "checkmark.shield.fill").foregroundStyle(.green)
-                } else { Label("No verified pairing recorded yet", systemImage: "shield.slash") }
-                Text("A success record is written only after the browser's WebSocket PIN handshake completes.").font(.caption).foregroundStyle(.secondary)
+                    Label(String(format: localized("diagnostics.pairing.verified"), success.date.formatted(date: .abbreviated, time: .standard)), systemImage: "checkmark.shield.fill").foregroundStyle(.green)
+                } else { Label(localized("diagnostics.pairing.none"), systemImage: "shield.slash") }
+                Text(localized("diagnostics.pairing.explanation")).font(.caption).foregroundStyle(.secondary)
             }
-            Section("Clipboard Privacy") {
-                Toggle("Allow remote clipboard reads", isOn: $allowRead).onChange(of: allowRead) { Settings.shared.allowRemoteClipboardRead = $0 }
-                Toggle("Allow remote clipboard writes", isOn: $allowWrite).onChange(of: allowWrite) { Settings.shared.allowRemoteClipboardWrite = $0 }
+            Section(localized("diagnostics.clipboard.title")) {
+                Toggle(localized("diagnostics.clipboard.read"), isOn: $allowRead).onChange(of: allowRead) { Settings.shared.allowRemoteClipboardRead = $0 }
+                Toggle(localized("diagnostics.clipboard.write"), isOn: $allowWrite).onChange(of: allowWrite) { Settings.shared.allowRemoteClipboardWrite = $0 }
                 if #available(iOS 16.0, *) {
                     PasteButton(payloadType: String.self) { values in pasted = values.first ?? ""; Settings.shared.rememberClipboard(pasted); reload() }.buttonBorderShape(.roundedRectangle)
                 }
                 if !pasted.isEmpty { Text(pasted).lineLimit(3).privacySensitive() }
-                Button("Clear Clipboard History", role: .destructive) { Settings.shared.clearClipboardHistory(); reload() }.disabled(history.isEmpty)
+                Button(localized("diagnostics.clipboard.clear"), role: .destructive) { Settings.shared.clearClipboardHistory(); reload() }.disabled(history.isEmpty)
                 ForEach(Array(history.enumerated()), id: \.offset) { _, item in Text(item).lineLimit(2).privacySensitive() }
             }
-            Section("Redacted Connection Log") {
-                ForEach(events.reversed()) { event in VStack(alignment: .leading) { Text(event.kind.capitalized).font(.headline); Text(event.detail); Text(event.date.formatted()).font(.caption).foregroundStyle(.secondary) } }
-                Button("Clear Diagnostics", role: .destructive) { Settings.shared.clearDiagnostics(); reload() }.disabled(events.isEmpty)
+            Section(localized("diagnostics.log.title")) {
+                ForEach(events.reversed()) { event in VStack(alignment: .leading) { Text(localizedKind(event.kind)).font(.headline); Text(localizedDetail(event.detail)); Text(event.date.formatted()).font(.caption).foregroundStyle(.secondary) } }
+                Button(localized("diagnostics.log.clear"), role: .destructive) { Settings.shared.clearDiagnostics(); reload() }.disabled(events.isEmpty)
             }
         }
-        .navigationTitle("Diagnostics")
+        .navigationTitle(localized("diagnostics.title"))
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
@@ -42,7 +44,7 @@ struct ConnectionDiagnosticsView: View {
                     Image(systemName: "square.and.arrow.up")
                 }
                 .disabled(events.isEmpty)
-                .accessibilityLabel("Share diagnostics")
+                .accessibilityLabel(localized("diagnostics.share"))
             }
         }
         .sheet(isPresented: $showShare) {
@@ -51,7 +53,31 @@ struct ConnectionDiagnosticsView: View {
         .onAppear(perform: reload)
     }
 
-    private var diagnosticText: String { (["Remoboard diagnostics (payloads redacted)"] + events.map { "\($0.date.formatted(.iso8601)) [\($0.kind)] \($0.detail)" }).joined(separator: "\n") }
+    private func localizedKind(_ kind: String) -> String {
+        switch kind {
+        case "pairing": return localized("diagnostics.kind.pairing")
+        case "clipboard": return localized("diagnostics.kind.clipboard")
+        default: return kind.capitalized
+        }
+    }
+
+    private func localizedDetail(_ detail: String) -> String {
+        if detail == "PIN verified end to end" { return localized("diagnostics.event.verified") }
+        if detail.hasPrefix("PIN rejected (attempt "), detail.hasSuffix(")") {
+            let number = detail.dropFirst("PIN rejected (attempt ".count).dropLast()
+            return String(format: localized("diagnostics.event.rejected"), String(number))
+        }
+        for (prefix, key) in [
+            ("Remote write accepted (", "diagnostics.event.write"),
+            ("Remote read accepted (", "diagnostics.event.read")
+        ] where detail.hasPrefix(prefix) {
+            let count = detail.dropFirst(prefix.count).split(separator: " ").first.map(String.init) ?? "0"
+            return String(format: localized(key), count)
+        }
+        return detail
+    }
+
+    private var diagnosticText: String { ([localized("diagnostics.export.header")] + events.map { "\($0.date.formatted(.iso8601)) [\(localizedKind($0.kind))] \(localizedDetail($0.detail))" }).joined(separator: "\n") }
     private func reload() { events = Settings.shared.diagnosticEvents; history = Settings.shared.clipboardHistory }
 }
 

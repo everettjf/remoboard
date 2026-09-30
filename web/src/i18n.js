@@ -1,5 +1,5 @@
 // Offline localization. The page ships inside the device, so no network lookups.
-// Covers the 10 most-used App Store languages; falls back to English for any missing key.
+// Covers the existing languages plus Vietnamese; falls back to English for any missing key.
 
 export const availableLangs = [
   { code: 'en', label: 'English' },
@@ -12,6 +12,7 @@ export const availableLangs = [
   { code: 'pt', label: 'Português' },
   { code: 'ru', label: 'Русский' },
   { code: 'it', label: 'Italiano' },
+  { code: 'vi', label: 'Tiếng Việt' },
 ]
 
 const strings = {
@@ -34,6 +35,26 @@ const strings = {
     settings: 'Settings', theme: 'Appearance', themeSystem: 'System', themeLight: 'Light',
     themeDark: 'Dark', language: 'Language', langAuto: 'Auto',
     requestLang: 'Request a language',
+  },
+  vi: {
+    connecting: 'Đang kết nối…', reconnecting: 'Đang kết nối lại…', connected: 'Đã kết nối',
+    enterPin: 'Nhập mã PIN hiển thị trên điện thoại', pinPlaceholder: 'PIN', pair: 'Ghép đôi',
+    pinWrong: 'Mã PIN không đúng, hãy thử lại',
+    composeHint: 'Gõ tại đây — văn bản sẽ hiện ngay trên điện thoại', onPhone: 'Trên điện thoại',
+    clear: 'Xóa', clearHint: 'Chỉ xóa ở đây, giữ nguyên văn bản trên điện thoại', chars: 'ký tự',
+    quickWords: 'Cụm từ nhanh', noQuickWords: 'Chưa có cụm từ nhanh',
+    emptyHintKeys: 'Phím mũi tên luôn di chuyển con trỏ điện thoại · Enter / Backspace cũng hoạt động khi ô nhập trống',
+    inputMode: 'Chế độ nhập', modeLive: 'Trực tiếp', modeSend: 'Gửi', send: 'Gửi', composeHintSend: 'Soạn tin nhắn rồi nhấn Gửi…', sendHint: 'Soạn xong, nhấn ⌘/Ctrl+Enter hoặc Gửi để gửi toàn bộ',
+    cursorControls: 'Điều khiển con trỏ', cursorLeft: 'Sang trái', cursorRight: 'Sang phải', cursorUp: 'Lên', cursorDown: 'Xuống', cursorDelete: 'Xóa lùi',
+    edit: 'Sửa', done: 'Xong', addWordPlaceholder: 'Thêm cụm từ nhanh…', add: 'Thêm',
+    clipboard: 'Bộ nhớ tạm', getPhoneClip: 'Lấy từ điện thoại', sendPhoneClip: 'Gửi đến điện thoại',
+    clipPlaceholder: 'Văn bản gửi đến bộ nhớ tạm của điện thoại…', copyHere: 'Sao chép', copied: 'Đã sao chép',
+    phoneClipEmpty: 'Bộ nhớ tạm của điện thoại đang trống', sendToApp: 'Gửi đến ứng dụng trên điện thoại',
+    history: 'Gần đây', noHistory: 'Tin nhắn đã xóa sẽ xuất hiện ở đây để gửi lại',
+    receivedFromPhone: 'Đã nhận từ điện thoại', openLink: 'Mở liên kết', dismiss: 'Đóng',
+    settings: 'Cài đặt', theme: 'Giao diện', themeSystem: 'Theo hệ thống', themeLight: 'Sáng',
+    themeDark: 'Tối', language: 'Ngôn ngữ', langAuto: 'Tự động',
+    requestLang: 'Yêu cầu thêm ngôn ngữ',
   },
   zh: {
     connecting: '连接中…', reconnecting: '重新连接中…', connected: '已连接',

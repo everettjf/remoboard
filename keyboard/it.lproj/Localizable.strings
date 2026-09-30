@@ -14,3 +14,5 @@
 "HandoffFailed" = "Impossibile aprire Remoboard";
 "ShowAddress" = "Mostra indirizzo";
 "HideAddress" = "Nascondi";
+"ClipboardWriteBlocked" = "Scrittura negli appunti bloccata dalle impostazioni sulla privacy";
+"ClipboardReadBlocked" = "Lettura degli appunti bloccata dalle impostazioni sulla privacy";

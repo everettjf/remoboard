@@ -14,3 +14,5 @@
 "HandoffFailed" = "Remoboard を開けませんでした";
 "ShowAddress" = "アドレスを表示";
 "HideAddress" = "非表示";
+"ClipboardWriteBlocked" = "プライバシー設定によりクリップボードへの書き込みがブロックされました";
+"ClipboardReadBlocked" = "プライバシー設定によりクリップボードの読み取りがブロックされました";

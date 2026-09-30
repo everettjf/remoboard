@@ -14,3 +14,5 @@
 "HandoffFailed" = "Não foi possível abrir o Remoboard";
 "ShowAddress" = "Mostrar endereço";
 "HideAddress" = "Ocultar";
+"ClipboardWriteBlocked" = "A gravação na área de transferência foi bloqueada pelas configurações de privacidade";
+"ClipboardReadBlocked" = "A leitura da área de transferência foi bloqueada pelas configurações de privacidade";

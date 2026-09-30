@@ -32,3 +32,25 @@
 "home.scriptwidget.description" = "JavaScript と JSX で iPhone、iPad、Mac のネイティブウィジェットを作成できます。";
 "home.scriptwidget.cta" = "ScriptWidget を見る";
 "home.scriptwidget.hint" = "ScriptWidget のウェブサイトを開きます。";
+
+// Connection diagnostics
+"diagnostics.title" = "診断";
+"diagnostics.pairing.title" = "ペアリングの確認";
+"diagnostics.pairing.verified" = "確認済み %@";
+"diagnostics.pairing.none" = "確認済みのペアリング記録はまだありません";
+"diagnostics.pairing.explanation" = "ブラウザの WebSocket PIN ハンドシェイクが完了した場合のみ成功を記録します。";
+"diagnostics.clipboard.title" = "プライバシーとクリップボード";
+"diagnostics.clipboard.read" = "リモートからのクリップボード読み取りを許可";
+"diagnostics.clipboard.write" = "リモートからのクリップボード書き込みを許可";
+"diagnostics.clipboard.clear" = "クリップボード履歴を消去";
+"diagnostics.log.title" = "内容を伏せた接続ログ";
+"diagnostics.log.clear" = "診断記録を消去";
+"diagnostics.share" = "診断記録を共有";
+"diagnostics.export.header" = "Remoboard 診断記録（内容は伏せています）";
+"diagnostics.kind.pairing" = "ペアリング";
+"diagnostics.kind.clipboard" = "クリップボード";
+"diagnostics.event.verified" = "PIN の検証が完了しました";
+"diagnostics.event.rejected" = "PIN が拒否されました（%@ 回目）";
+"diagnostics.event.write" = "リモート書き込みを受け付けました（%@ バイト、内容は非表示）";
+"diagnostics.event.read" = "リモート読み取りを受け付けました（%@ バイト、内容は非表示）";
+"home.diagnostics" = "接続の診断とクリップボードのプライバシー";

@@ -14,3 +14,5 @@
 "HandoffFailed" = "No se pudo abrir Remoboard";
 "ShowAddress" = "Mostrar dirección";
 "HideAddress" = "Ocultar";
+"ClipboardWriteBlocked" = "La configuración de privacidad bloqueó la escritura en el portapapeles";
+"ClipboardReadBlocked" = "La configuración de privacidad bloqueó la lectura del portapapeles";

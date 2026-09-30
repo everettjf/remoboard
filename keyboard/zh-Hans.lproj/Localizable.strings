@@ -14,3 +14,5 @@
 "HandoffFailed" = "无法打开 Remoboard";
 "ShowAddress" = "显示地址";
 "HideAddress" = "隐藏";
+"ClipboardWriteBlocked" = "隐私设置已阻止写入剪贴板";
+"ClipboardReadBlocked" = "隐私设置已阻止读取剪贴板";

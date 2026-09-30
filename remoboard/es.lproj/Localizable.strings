@@ -32,3 +32,25 @@
 "home.scriptwidget.description" = "Crea widgets nativos para iPhone, iPad y Mac con JavaScript y JSX.";
 "home.scriptwidget.cta" = "Descubrir ScriptWidget";
 "home.scriptwidget.hint" = "Abre el sitio web de ScriptWidget.";
+
+// Connection diagnostics
+"diagnostics.title" = "Diagnóstico";
+"diagnostics.pairing.title" = "Verificación de emparejamiento";
+"diagnostics.pairing.verified" = "Verificado %@";
+"diagnostics.pairing.none" = "Aún no se ha registrado ningún emparejamiento verificado";
+"diagnostics.pairing.explanation" = "Solo se registra un éxito cuando termina el intercambio del PIN WebSocket en el navegador.";
+"diagnostics.clipboard.title" = "Privacidad del portapapeles";
+"diagnostics.clipboard.read" = "Permitir lectura remota del portapapeles";
+"diagnostics.clipboard.write" = "Permitir escritura remota en el portapapeles";
+"diagnostics.clipboard.clear" = "Borrar historial del portapapeles";
+"diagnostics.log.title" = "Registro de conexiones censurado";
+"diagnostics.log.clear" = "Borrar diagnósticos";
+"diagnostics.share" = "Compartir diagnósticos";
+"diagnostics.export.header" = "Diagnóstico de Remoboard (contenido oculto)";
+"diagnostics.kind.pairing" = "Emparejamiento";
+"diagnostics.kind.clipboard" = "Portapapeles";
+"diagnostics.event.verified" = "PIN verificado de extremo a extremo";
+"diagnostics.event.rejected" = "PIN rechazado (intento %@)";
+"diagnostics.event.write" = "Escritura remota aceptada (%@ bytes; contenido oculto)";
+"diagnostics.event.read" = "Lectura remota aceptada (%@ bytes; contenido oculto)";
+"home.diagnostics" = "Diagnóstico de conexión y privacidad del portapapeles";

@@ -32,3 +32,25 @@
 "home.scriptwidget.description" = "JavaScript와 JSX로 iPhone, iPad 및 Mac용 네이티브 위젯을 만드세요.";
 "home.scriptwidget.cta" = "ScriptWidget 살펴보기";
 "home.scriptwidget.hint" = "ScriptWidget 웹사이트를 엽니다.";
+
+// Connection diagnostics
+"diagnostics.title" = "진단";
+"diagnostics.pairing.title" = "페어링 확인";
+"diagnostics.pairing.verified" = "확인됨 %@";
+"diagnostics.pairing.none" = "확인된 페어링 기록이 없습니다";
+"diagnostics.pairing.explanation" = "브라우저의 WebSocket PIN 핸드셰이크가 완료된 후에만 성공 기록이 저장됩니다.";
+"diagnostics.clipboard.title" = "클립보드 개인정보 보호";
+"diagnostics.clipboard.read" = "원격 클립보드 읽기 허용";
+"diagnostics.clipboard.write" = "원격 클립보드 쓰기 허용";
+"diagnostics.clipboard.clear" = "클립보드 기록 지우기";
+"diagnostics.log.title" = "내용을 가린 연결 로그";
+"diagnostics.log.clear" = "진단 기록 지우기";
+"diagnostics.share" = "진단 기록 공유";
+"diagnostics.export.header" = "Remoboard 진단 기록(내용은 가림)";
+"diagnostics.kind.pairing" = "페어링";
+"diagnostics.kind.clipboard" = "클립보드";
+"diagnostics.event.verified" = "PIN 확인 완료";
+"diagnostics.event.rejected" = "PIN 거부됨(%@번째 시도)";
+"diagnostics.event.write" = "원격 쓰기 수락(%@바이트, 내용 가림)";
+"diagnostics.event.read" = "원격 읽기 수락(%@바이트, 내용 가림)";
+"home.diagnostics" = "연결 진단 및 클립보드 개인정보 보호";

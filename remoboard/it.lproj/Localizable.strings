@@ -32,3 +32,25 @@
 "home.scriptwidget.description" = "Crea widget nativi per iPhone, iPad e Mac con JavaScript e JSX.";
 "home.scriptwidget.cta" = "Scopri ScriptWidget";
 "home.scriptwidget.hint" = "Apre il sito web di ScriptWidget.";
+
+// Connection diagnostics
+"diagnostics.title" = "Diagnostica";
+"diagnostics.pairing.title" = "Verifica abbinamento";
+"diagnostics.pairing.verified" = "Verificato %@";
+"diagnostics.pairing.none" = "Nessun abbinamento verificato registrato";
+"diagnostics.pairing.explanation" = "Il successo viene registrato solo dopo il completamento della verifica PIN WebSocket nel browser.";
+"diagnostics.clipboard.title" = "Privacy degli appunti";
+"diagnostics.clipboard.read" = "Consenti lettura remota degli appunti";
+"diagnostics.clipboard.write" = "Consenti scrittura remota negli appunti";
+"diagnostics.clipboard.clear" = "Cancella cronologia degli appunti";
+"diagnostics.log.title" = "Registro connessioni con contenuti nascosti";
+"diagnostics.log.clear" = "Cancella diagnostica";
+"diagnostics.share" = "Condividi diagnostica";
+"diagnostics.export.header" = "Diagnostica Remoboard (contenuti nascosti)";
+"diagnostics.kind.pairing" = "Abbinamento";
+"diagnostics.kind.clipboard" = "Appunti";
+"diagnostics.event.verified" = "PIN verificato da un capo all’altro";
+"diagnostics.event.rejected" = "PIN rifiutato (tentativo %@)";
+"diagnostics.event.write" = "Scrittura remota accettata (%@ byte; contenuto nascosto)";
+"diagnostics.event.read" = "Lettura remota accettata (%@ byte; contenuto nascosto)";
+"home.diagnostics" = "Diagnostica connessione e privacy degli appunti";

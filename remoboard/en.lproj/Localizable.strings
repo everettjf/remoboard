@@ -35,3 +35,25 @@
 "home.scriptwidget.description" = "Create native iPhone, iPad, and Mac widgets with JavaScript and JSX.";
 "home.scriptwidget.cta" = "Explore ScriptWidget";
 "home.scriptwidget.hint" = "Opens the ScriptWidget website.";
+
+// Connection diagnostics
+"diagnostics.title" = "Diagnostics";
+"diagnostics.pairing.title" = "Pairing Verification";
+"diagnostics.pairing.verified" = "Verified %@";
+"diagnostics.pairing.none" = "No verified pairing recorded yet";
+"diagnostics.pairing.explanation" = "A success record is written only after the browser's WebSocket PIN handshake completes.";
+"diagnostics.clipboard.title" = "Clipboard Privacy";
+"diagnostics.clipboard.read" = "Allow remote clipboard reads";
+"diagnostics.clipboard.write" = "Allow remote clipboard writes";
+"diagnostics.clipboard.clear" = "Clear Clipboard History";
+"diagnostics.log.title" = "Redacted Connection Log";
+"diagnostics.log.clear" = "Clear Diagnostics";
+"diagnostics.share" = "Share diagnostics";
+"diagnostics.export.header" = "Remoboard diagnostics (payloads redacted)";
+"diagnostics.kind.pairing" = "Pairing";
+"diagnostics.kind.clipboard" = "Clipboard";
+"diagnostics.event.verified" = "PIN verified end to end";
+"diagnostics.event.rejected" = "PIN rejected (attempt %@)";
+"diagnostics.event.write" = "Remote write accepted (%@ bytes; content redacted)";
+"diagnostics.event.read" = "Remote read accepted (%@ bytes; content redacted)";
+"home.diagnostics" = "Connection Diagnostics & Clipboard Privacy";
