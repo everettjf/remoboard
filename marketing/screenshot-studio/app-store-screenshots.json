@@ -5,11 +5,17 @@
   "fontId": "system-sans",
   "connectedCanvas": false,
   "locales": [
+    "en",
     "zh-Hans",
-    "en"
+    "ja",
+    "pt-BR",
+    "ru",
+    "de",
+    "vi",
+    "fr"
   ],
   "locale": "en",
-  "device": "ipad",
+  "device": "iphone",
   "orientation": "portrait",
   "appIcon": "/app-icon.png",
   "slidesByDevice": {
@@ -18,14 +24,26 @@
         "id": "remoboard-iphone-received",
         "layout": "hero",
         "label": {
-          "en": "BROWSER TO DEVICE",
-          "zh-Hans": "电脑发送 · 设备接收"
+          "en": "BROWSER TO IPHONE",
+          "zh-Hans": "电脑输入 · 手机接收",
+          "ja": "PC から iPhone へ",
+          "pt-BR": "DO COMPUTADOR AO IPHONE",
+          "ru": "С КОМПЬЮТЕРА НА IPHONE",
+          "de": "VOM COMPUTER ZUM IPHONE",
+          "vi": "TỪ MÁY TÍNH ĐẾN IPHONE",
+          "fr": "DE L’ORDINATEUR À L’IPHONE"
         },
         "headline": {
-          "en": "Send text from\nyour computer.",
-          "zh-Hans": "电脑输入文字\n发送到设备"
+          "en": "Type on your computer.\nSend to iPhone.",
+          "zh-Hans": "在电脑上输入\n实时送到 iPhone",
+          "ja": "パソコンで入力。\niPhone へすぐ送信。",
+          "pt-BR": "Digite no computador.\nEnvie ao iPhone.",
+          "ru": "Печатайте на ПК.\nОтправляйте на iPhone.",
+          "de": "Am Computer tippen.\nAns iPhone senden.",
+          "vi": "Gõ trên máy tính.\nGửi tới iPhone.",
+          "fr": "Tapez sur ordinateur.\nEnvoyez sur iPhone."
         },
-        "screenshot": "/screenshots/apple/iphone/en/received.png",
+        "screenshot": "/screenshots/apple/iphone/{locale}/received.png",
         "backgroundColor": "#EAF4FF",
         "inverted": false
       },
@@ -33,14 +51,26 @@
         "id": "remoboard-iphone-pair",
         "layout": "device-bottom",
         "label": {
-          "en": "LOCAL WI-FI · PIN PAIRING",
-          "zh-Hans": "局域网 · PIN 配对"
+          "en": "LOCAL WI-FI · PIN",
+          "zh-Hans": "局域网 · PIN 配对",
+          "ja": "同じ Wi-Fi · PIN 認証",
+          "pt-BR": "WI-FI LOCAL · PIN",
+          "ru": "ЛОКАЛЬНЫЙ WI-FI · PIN",
+          "de": "LOKALES WLAN · PIN",
+          "vi": "WI-FI NỘI BỘ · PIN",
+          "fr": "WI-FI LOCAL · CODE PIN"
         },
         "headline": {
           "en": "Pair with a PIN.\nStart typing.",
-          "zh-Hans": "PIN 配对\n开始输入"
+          "zh-Hans": "输入配对码\n即刻开始打字",
+          "ja": "PIN で接続。\nすぐに入力。",
+          "pt-BR": "Conecte com PIN.\nComece a digitar.",
+          "ru": "Подключитесь по PIN.\nНачните ввод.",
+          "de": "Mit PIN verbinden.\nDirekt lostippen.",
+          "vi": "Ghép nối bằng PIN.\nBắt đầu nhập.",
+          "fr": "Associez par code PIN.\nCommencez à saisir."
         },
-        "screenshot": "/screenshots/apple/iphone/en/home.png",
+        "screenshot": "/screenshots/apple/iphone/{locale}/home.png",
         "inverted": false,
         "backgroundColor": "#E8F8F4"
       },
@@ -49,13 +79,25 @@
         "layout": "hero",
         "label": {
           "en": "QUICK WORDS",
-          "zh-Hans": "常用短语"
+          "zh-Hans": "常用短语",
+          "ja": "定型文",
+          "pt-BR": "FRASES RÁPIDAS",
+          "ru": "БЫСТРЫЕ ФРАЗЫ",
+          "de": "TEXTBAUSTEINE",
+          "vi": "CỤM TỪ NHANH",
+          "fr": "PHRASES RAPIDES"
         },
         "headline": {
-          "en": "Phrases ready\nwhen you are.",
-          "zh-Hans": "常用短语\n随手调用"
+          "en": "Your phrases,\nready to send.",
+          "zh-Hans": "常用内容\n一键发送",
+          "ja": "よく使う文を\nすぐに送信。",
+          "pt-BR": "Suas frases,\nprontas para enviar.",
+          "ru": "Частые фразы\nвсегда под рукой.",
+          "de": "Häufige Texte\nsofort senden.",
+          "vi": "Câu dùng thường xuyên,\ngửi ngay lập tức.",
+          "fr": "Vos phrases prêtes\nà être envoyées."
         },
-        "screenshot": "/screenshots/apple/iphone/en/quickwords.png",
+        "screenshot": "/screenshots/apple/iphone/{locale}/quickwords.png",
         "backgroundColor": "#FFF2E4",
         "inverted": false
       }
@@ -66,14 +108,26 @@
         "id": "remoboard-ipad-received",
         "layout": "hero",
         "label": {
-          "en": "BROWSER TO DEVICE",
-          "zh-Hans": "电脑发送 · 设备接收"
+          "en": "BROWSER TO IPHONE",
+          "zh-Hans": "电脑输入 · 手机接收",
+          "ja": "PC から iPhone へ",
+          "pt-BR": "DO COMPUTADOR AO IPHONE",
+          "ru": "С КОМПЬЮТЕРА НА IPHONE",
+          "de": "VOM COMPUTER ZUM IPHONE",
+          "vi": "TỪ MÁY TÍNH ĐẾN IPHONE",
+          "fr": "DE L’ORDINATEUR À L’IPHONE"
         },
         "headline": {
-          "en": "Send text from\nyour computer.",
-          "zh-Hans": "电脑输入文字\n发送到设备"
+          "en": "Type on your computer.\nSend to iPhone.",
+          "zh-Hans": "在电脑上输入\n实时送到 iPhone",
+          "ja": "パソコンで入力。\niPhone へすぐ送信。",
+          "pt-BR": "Digite no computador.\nEnvie ao iPhone.",
+          "ru": "Печатайте на ПК.\nОтправляйте на iPhone.",
+          "de": "Am Computer tippen.\nAns iPhone senden.",
+          "vi": "Gõ trên máy tính.\nGửi tới iPhone.",
+          "fr": "Tapez sur ordinateur.\nEnvoyez sur iPhone."
         },
-        "screenshot": "/screenshots/apple/ipad/en/received.png",
+        "screenshot": "/screenshots/apple/ipad/{locale}/received.png",
         "backgroundColor": "#EAF4FF",
         "inverted": false
       },
@@ -81,14 +135,26 @@
         "id": "remoboard-ipad-pair",
         "layout": "device-bottom",
         "label": {
-          "en": "LOCAL WI-FI · PIN PAIRING",
-          "zh-Hans": "局域网 · PIN 配对"
+          "en": "LOCAL WI-FI · PIN",
+          "zh-Hans": "局域网 · PIN 配对",
+          "ja": "同じ Wi-Fi · PIN 認証",
+          "pt-BR": "WI-FI LOCAL · PIN",
+          "ru": "ЛОКАЛЬНЫЙ WI-FI · PIN",
+          "de": "LOKALES WLAN · PIN",
+          "vi": "WI-FI NỘI BỘ · PIN",
+          "fr": "WI-FI LOCAL · CODE PIN"
         },
         "headline": {
           "en": "Pair with a PIN.\nStart typing.",
-          "zh-Hans": "PIN 配对\n开始输入"
+          "zh-Hans": "输入配对码\n即刻开始打字",
+          "ja": "PIN で接続。\nすぐに入力。",
+          "pt-BR": "Conecte com PIN.\nComece a digitar.",
+          "ru": "Подключитесь по PIN.\nНачните ввод.",
+          "de": "Mit PIN verbinden.\nDirekt lostippen.",
+          "vi": "Ghép nối bằng PIN.\nBắt đầu nhập.",
+          "fr": "Associez par code PIN.\nCommencez à saisir."
         },
-        "screenshot": "/screenshots/apple/ipad/en/home.png",
+        "screenshot": "/screenshots/apple/ipad/{locale}/home.png",
         "inverted": false,
         "backgroundColor": "#E8F8F4"
       },
@@ -97,13 +163,25 @@
         "layout": "hero",
         "label": {
           "en": "QUICK WORDS",
-          "zh-Hans": "常用短语"
+          "zh-Hans": "常用短语",
+          "ja": "定型文",
+          "pt-BR": "FRASES RÁPIDAS",
+          "ru": "БЫСТРЫЕ ФРАЗЫ",
+          "de": "TEXTBAUSTEINE",
+          "vi": "CỤM TỪ NHANH",
+          "fr": "PHRASES RAPIDES"
         },
         "headline": {
-          "en": "Phrases ready\nwhen you are.",
-          "zh-Hans": "常用短语\n随手调用"
+          "en": "Your phrases,\nready to send.",
+          "zh-Hans": "常用内容\n一键发送",
+          "ja": "よく使う文を\nすぐに送信。",
+          "pt-BR": "Suas frases,\nprontas para enviar.",
+          "ru": "Частые фразы\nвсегда под рукой.",
+          "de": "Häufige Texte\nsofort senden.",
+          "vi": "Câu dùng thường xuyên,\ngửi ngay lập tức.",
+          "fr": "Vos phrases prêtes\nà être envoyées."
         },
-        "screenshot": "/screenshots/apple/ipad/en/quickwords.png",
+        "screenshot": "/screenshots/apple/ipad/{locale}/quickwords.png",
         "backgroundColor": "#FFF2E4",
         "inverted": false
       }
