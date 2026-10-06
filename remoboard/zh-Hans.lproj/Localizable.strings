@@ -57,3 +57,5 @@
 "diagnostics.event.write" = "已接受远程写入（%@ 字节；内容已隐藏）";
 "diagnostics.event.read" = "已接受远程读取（%@ 字节；内容已隐藏）";
 "home.diagnostics" = "连接诊断与剪贴板隐私";
+
+"Discord" = "Discord";

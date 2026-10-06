@@ -57,3 +57,5 @@
 "diagnostics.event.write" = "Remote write accepted (%@ bytes; content redacted)";
 "diagnostics.event.read" = "Remote read accepted (%@ bytes; content redacted)";
 "home.diagnostics" = "Connection Diagnostics & Clipboard Privacy";
+
+"Discord" = "Discord";

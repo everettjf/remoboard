@@ -54,3 +54,5 @@
 "diagnostics.event.write" = "リモート書き込みを受け付けました（%@ バイト、内容は非表示）";
 "diagnostics.event.read" = "リモート読み取りを受け付けました（%@ バイト、内容は非表示）";
 "home.diagnostics" = "接続の診断とクリップボードのプライバシー";
+
+"Discord" = "Discord";

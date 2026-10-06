@@ -54,3 +54,5 @@
 "diagnostics.event.write" = "원격 쓰기 수락(%@바이트, 내용 가림)";
 "diagnostics.event.read" = "원격 읽기 수락(%@바이트, 내용 가림)";
 "home.diagnostics" = "연결 진단 및 클립보드 개인정보 보호";
+
+"Discord" = "Discord";

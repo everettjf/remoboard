@@ -54,3 +54,5 @@
 "diagnostics.event.write" = "Escritura remota aceptada (%@ bytes; contenido oculto)";
 "diagnostics.event.read" = "Lectura remota aceptada (%@ bytes; contenido oculto)";
 "home.diagnostics" = "Diagnóstico de conexión y privacidad del portapapeles";
+
+"Discord" = "Discord";

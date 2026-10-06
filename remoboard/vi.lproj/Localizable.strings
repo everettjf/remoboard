@@ -57,3 +57,5 @@
 "diagnostics.event.write" = "Đã chấp nhận ghi từ xa (%@ byte; đã ẩn nội dung)";
 "diagnostics.event.read" = "Đã chấp nhận đọc từ xa (%@ byte; đã ẩn nội dung)";
 "home.diagnostics" = "Chẩn đoán kết nối và quyền riêng tư bộ nhớ tạm";
+
+"Discord" = "Discord";

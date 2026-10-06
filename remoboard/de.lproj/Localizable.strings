@@ -54,3 +54,5 @@
 "diagnostics.event.write" = "Fernschreiben akzeptiert (%@ Byte; Inhalt entfernt)";
 "diagnostics.event.read" = "Fernlesen akzeptiert (%@ Byte; Inhalt entfernt)";
 "home.diagnostics" = "Verbindungsdiagnose und Datenschutz der Zwischenablage";
+
+"Discord" = "Discord";

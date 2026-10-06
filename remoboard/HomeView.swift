@@ -239,6 +239,8 @@ struct HomeView: View {
                 Label(NSLocalizedString("home.feedback", comment: ""), systemImage: "bubble.left")
                     .font(.subheadline)
             }
+            Link("Discord", destination: URL(string: "https://discord.gg/eGzEaP6TzR")!)
+                .font(.subheadline)
             Link("xnu.app", destination: siteURL)
                 .font(.caption)
                 .foregroundStyle(.secondary)
